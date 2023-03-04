@@ -31,7 +31,7 @@ local Window = Rayfield:CreateWindow({
  local Section = Shindo:CreateSection("Shindo Script")
 
  local Button = Shindo:CreateButton({
-    Name = "Shindo Script",
+    Name = "Click Me to use Driving Empire Script",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/BayronLawful/PlatinumHubV2/main/PlatinumLoader.lua"))()
     end,
@@ -42,7 +42,7 @@ local Window = Rayfield:CreateWindow({
  local Section = Empire:CreateSection("Driving Empire Script")
 
  local Button = Empire:CreateButton({
-    Name = "Shindo Script",
+    Name = "Click Me to use Driving Empire Script",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/WindyKung/WindyWare/main/MainScript/DrivingEmpire.lua"))()
     end,
